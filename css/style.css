@@ -44,9 +44,8 @@
 .contact-nav {
   display: flex;
   align-items: center;
-  color: #fff !important;
   background-color: #996830;
-  padding: 2rem 3rem;
+  padding: 1.4rem 1.8rem;
   text-transform: uppercase;
 }
 
@@ -58,17 +57,97 @@
 .icon-contact {
   transform: rotate(45deg);
   text-align: center;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff !important;
 }
 
 /**************************************************/
 /* Section HERO */
 /**************************************************/
 .section-hero {
-  margin-top: 9rem;
+  padding: 4.8rem 0 0 0;
 }
 .hero {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.hero-text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 12rem;
+}
+.heading-hero {
+  font-size: 11rem;
+}
+.hero-text {
+  font-style: italic;
+}
+
+.hero-description {
+  height: 6.4rem;
+  width: 65%;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+/* .hero-img-box {
+  margin-bottom: 0;
+} */
+
+.here-img {
+  max-width: 100%;
+  height: auto;
+}
+
+/**************************************************/
+/* Section AWARD */
+/**************************************************/
+.section-award {
+  padding: 0 0 9.6rem 0;
+}
+.award {
+  height: 12rem;
+  background-color: #2c2c2c;
+  display: flex;
+  justify-content: center;
+}
+.grid-awards {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  gap: 6.2rem;
+}
+.award-title {
+  font-size: 2rem;
+  font-family: "Playfair Display";
+  color: #a5a5a4;
+  transform: rotate(-90deg);
+}
+.award-title hr {
+  width: 7rem;
+}
+
+.award-layout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.award-text {
+  font-size: 2rem;
+  padding-left: 1.2rem;
+  font-weight: 500;
+  color: #a5a5a4;
+  line-height: 1.6;
 }
