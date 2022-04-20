@@ -68,6 +68,7 @@
 /* Section HERO */
 /**************************************************/
 .section-hero {
+  background-color: #fff;
   padding: 4.8rem 0 0 0;
 }
 .hero {
@@ -112,6 +113,7 @@
 /* Section AWARD */
 /**************************************************/
 .section-award {
+  background-color: #fff;
   padding: 0 0 9.6rem 0;
 }
 .award {
@@ -156,6 +158,7 @@
 /* Section ABOUT */
 /**************************************************/
 .section-about {
+  background-color: #fff;
   padding: 4.8rem 0 0 0;
 }
 
@@ -187,4 +190,130 @@
 
 .about-img-right {
   margin-top: 8.2rem;
+}
+
+/**************************************************/
+/* Section ABOUT */
+/**************************************************/
+.section-percent {
+  background-color: #fff;
+  padding: 8rem 0 9.6rem 0;
+  border-bottom: 1px solid rgb(116, 114, 114, 0.5);
+}
+
+.percent-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.percent-number {
+  font-family: "Playfair Display";
+  font-weight: 500;
+  color: #2c2c2c;
+  letter-spacing: 1px;
+  font-size: 6rem;
+}
+.percent-numbers {
+  font-size: 4rem;
+}
+
+.percent-text {
+  font-size: 1.9rem;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+/**************************************************/
+/* Section ABOUT */
+/**************************************************/
+.section-services {
+  background-color: #fff;
+  padding: 10rem 0 9.6rem 0;
+}
+
+.services-card {
+  border: 1px solid rgba(167, 163, 163, 0.5);
+}
+
+.services-card-icon {
+  padding: 3.2rem 0 6rem 3.2rem;
+}
+
+.services-title {
+  padding: 2rem 0 0rem 3.2rem;
+}
+
+.services-text {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  padding: 0 3rem 6rem 3.2rem;
+}
+
+/**************************************************/
+/* Section WORKS */
+/**************************************************/
+.section-services {
+  background-color: #fff;
+  padding: 10rem 0 9.6rem 0;
+}
+
+.works-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2;
+  margin-bottom: 2rem;
+  /* margin-top: 2rem; */
+}
+.works-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+
+.works-title-italic {
+  font-style: italic;
+}
+
+.img-crafts {
+  width: 50rem;
+}
+.works-title {
+  padding: 4rem 0 0rem 0;
+}
+
+.works-text {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+  padding: 0 3rem 3rem 0;
+}
+
+.works-btn {
+  background-color: #996830;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-top: 2rem;
+  border: none;
+}
+
+.works-btn-link {
+  color: #fff;
+}
+.works-btn-link:link,
+.works-btn-link:active {
+  text-decoration: none;
+}
+
+/**************************************************/
+/* Section WORKS */
+/**************************************************/
+.footer {
+  background-color: #fff;
+  padding: 10rem 0 9.6rem 0;
 }
