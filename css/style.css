@@ -85,7 +85,7 @@
   margin-bottom: 12rem;
 }
 .heading-hero {
-  font-size: 11rem;
+  font-size: 8rem;
 }
 .hero-text {
   font-style: italic;
@@ -95,7 +95,7 @@
   height: 6.4rem;
   width: 65%;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 300;
 }
 
@@ -134,7 +134,7 @@
   color: #a5a5a4;
   transform: rotate(-90deg);
 }
-hr {
+.award-hr {
   width: 7rem;
 }
 
@@ -150,4 +150,41 @@ hr {
   font-weight: 500;
   color: #a5a5a4;
   line-height: 1.6;
+}
+
+/**************************************************/
+/* Section ABOUT */
+/**************************************************/
+.section-about {
+  padding: 4.8rem 0 0 0;
+}
+
+.about-text {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+.about-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.about-title-italic {
+  font-style: italic;
+}
+
+.about-img-box {
+  /* display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.2rem; */
+
+  display: flex;
+  gap: 3.2rem;
+}
+
+.about-img-right {
+  margin-top: 8.2rem;
 }
