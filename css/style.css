@@ -259,6 +259,10 @@
   padding: 10rem 0 9.6rem 0;
 }
 
+.grid-works {
+  grid-template-columns: 60fr 40fr;
+}
+
 .works-text {
   font-size: 1.6rem;
   font-weight: 400;
@@ -270,6 +274,8 @@
   display: flex;
   align-items: center;
   margin-bottom: 1.8rem;
+  padding: 0 0 0rem 0;
+  font-size: 2.8rem;
 }
 
 .works-title-italic {
@@ -277,10 +283,7 @@
 }
 
 .img-crafts {
-  width: 50rem;
-}
-.works-title {
-  padding: 4rem 0 0rem 0;
+  width: 60rem;
 }
 
 .works-text {
@@ -306,8 +309,17 @@
   color: #fff;
 }
 .works-btn-link:link,
-.works-btn-link:active {
+.works-btn-link:visited {
   text-decoration: none;
+}
+
+.works-btn:hover,
+.works-btn:active {
+  background-color: #c4853d;
+}
+
+.hotel-img {
+  width: 40rem;
 }
 
 /**************************************************/
