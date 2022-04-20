@@ -261,6 +261,7 @@
 
 .grid-works {
   grid-template-columns: 60fr 40fr;
+  margin-bottom: 7rem;
 }
 
 .works-text {
@@ -327,5 +328,122 @@
 /**************************************************/
 .footer {
   background-color: #fff;
-  padding: 10rem 0 9.6rem 0;
+  padding: 10rem 0 1rem 0;
+  border-top: 1px solid rgba(180, 178, 178, 0.5);
+}
+
+.grid-footer {
+  display: grid;
+  column-gap: 24rem;
+  row-gap: 6rem;
+}
+
+.grid-footer-cols {
+  grid-template-columns: 60fr 40fr;
+  margin-bottom: 5rem;
+}
+
+.footer-heading,
+.kick-text {
+  font-family: "Playfair Display";
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 4rem;
+  line-height: 1.2;
+}
+
+.footer-heading {
+  color: #2c2c2c;
+  margin-bottom: 2.6rem;
+}
+
+.kick-text {
+  font-style: italic;
+  color: #996830;
+}
+
+.address-heading {
+  font-size: 2.7rem;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  color: #2c2c2c;
+  font-style: normal;
+  margin-bottom: 1.6rem;
+}
+
+.footer-right {
+  margin-bottom: 3.6rem;
+}
+
+.address {
+  font-size: 1.4rem;
+  line-height: 1.4;
+  margin-bottom: 2.3rem;
+  font-style: normal;
+}
+
+.footer-text {
+  font-style: normal;
+  font-size: 1.4rem;
+  margin: 0.8rem 0 1rem 0;
+}
+
+.footer-link {
+  font-size: 2rem;
+  font-family: "Playfair Display";
+  text-decoration: none;
+  color: #996830;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.footer-icon {
+  background-color: #fff;
+  padding: 4rem 0 1rem 0;
+  border-top: 1px solid rgba(180, 178, 178, 0.5);
+}
+
+.icon-cols {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-copyright {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.landify {
+  color: #996830;
+}
+
+.hr-icons {
+  width: 7rem;
+  background-color: #996830;
+  margin-right: 2rem;
+}
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.icons-title {
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.social-icons {
+  height: 2.1rem;
+  width: 2.1rem;
+  color: #996830;
+  padding: 0.5rem;
+  border: 1px solid rgba(153, 104, 48, 0.5);
+  border-radius: 50%;
 }
