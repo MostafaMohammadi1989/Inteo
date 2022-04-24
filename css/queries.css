@@ -193,26 +193,31 @@
 /**************************/
 @media (max-width: 34em) {
   .header {
-    padding: 0 6.4rem;
+    padding: 0 4.4rem;
   }
 
   .heading-hero {
-    font-size: 3.7rem;
+    font-size: 3rem;
   }
   .hero-description {
-    width: 72%;
+    width: 89%;
+    font-size: 1.8rem;
+  }
+  .award-text {
+    /* font-size: 1rem; */
+    display: none;
   }
   .section-award {
     padding-bottom: 3.6rem;
   }
 
   .award-hr {
-    width: 2rem;
+    width: 4rem;
     margin-right: 1rem;
   }
 
   .grid-awards {
-    gap: 0;
+    gap: 3.2rem;
   }
 
   .percent {
@@ -223,25 +228,51 @@
     margin-bottom: 4rem;
   }
 
+  .about {
+    padding: 0 5rem 0 5rem;
+  }
+
   .about-text {
     margin-top: 1rem;
   }
 
-  .about-img-left {
-    height: 40rem;
+  .about-img-left,
+  .about-img-right {
+    height: 29rem;
   }
 
-  .about-img-right {
-    height: 40rem;
+  .percent-number {
+    font-size: 4rem;
+  }
+
+  .percent-numbers {
+    font-size: 3rem;
+  }
+
+  .percent-text {
+    font-size: 1.4rem;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .services {
+    padding: 0 5rem 0 5rem;
+  }
+
+  .works {
+    padding: 0 5rem 0 5rem;
   }
   .works-text {
     padding-bottom: 0.5rem;
   }
 
   .img-crafts {
-    width: 50rem;
+    width: 37rem;
   }
 
+  .hotel-img {
+    width: 33rem;
+  }
   .works-title {
     font-size: 2.9rem;
   }
@@ -250,7 +281,16 @@
     padding-top: 5rem;
   }
 
+  .footer-heading,
+  .kick-text {
+    font-size: 3rem;
+  }
+
   .grid-footer-cols {
     margin-bottom: 3rem;
+  }
+
+  .footer-icons {
+    gap: 1rem;
   }
 }
