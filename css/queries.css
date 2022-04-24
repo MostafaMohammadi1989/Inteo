@@ -224,7 +224,7 @@
     column-gap: 0;
   }
   .heading-secondary {
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 4rem;
   }
 
@@ -257,6 +257,10 @@
 
   .services {
     padding: 0 5rem 0 5rem;
+  }
+
+  .services-title {
+    font-size: 3rem;
   }
 
   .works {
