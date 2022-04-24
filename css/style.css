@@ -277,7 +277,7 @@
 }
 
 .grid-works {
-  grid-template-columns: 60fr 40fr;
+  grid-template-columns: 3fr 2fr;
   margin-bottom: 7rem;
 }
 
@@ -421,10 +421,13 @@
 }
 
 .icon-cols {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
 .footer-copyright {
