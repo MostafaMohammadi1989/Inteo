@@ -1,0 +1,22 @@
+/**************************/
+/* BELOW 1486px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 84em) {
+  .grid-awards {
+    gap: 1.2rem;
+  }
+  .award-text {
+    font-size: 1.6rem;
+  }
+  .award-img {
+    height: 5rem;
+  }
+  .award-img-icon {
+    height: 2rem;
+  }
+}
+
+/**************************/
+/* BELOW 1344px (Smaller desktops) */
+/**************************/
