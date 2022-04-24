@@ -192,8 +192,12 @@
 /* BELOW 544px (Phones) */
 /**************************/
 @media (max-width: 34em) {
+  .header {
+    padding: 0 6.4rem;
+  }
+
   .heading-hero {
-    font-size: 4.2rem;
+    font-size: 3.7rem;
   }
   .hero-description {
     width: 72%;
