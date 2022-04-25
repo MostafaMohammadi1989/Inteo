@@ -399,6 +399,11 @@
   font-style: normal;
 }
 
+.send-us {
+  text-decoration: none;
+  color: #996830;
+}
+
 .footer-text {
   font-style: normal;
   font-size: 1.4rem;

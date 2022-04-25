@@ -28,6 +28,12 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
+
+    <!-- Safari smooth -->
+    <script
+      defer
+      src=" https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
     <!-- My style -->
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -45,11 +51,11 @@
       </a>
       <nav class="main-nav">
         <ui class="main-nav-list">
-          <li><a class="main-nav-link" href="#">About</a></li>
-          <li><a class="main-nav-link" href="#">Services</a></li>
-          <li><a class="main-nav-link" href="#">Our Work</a></li>
+          <li><a class="main-nav-link" href="#about">About</a></li>
+          <li><a class="main-nav-link" href="#services">Services</a></li>
+          <li><a class="main-nav-link" href="#work">Our Work</a></li>
           <li class="contact-nav">
-            <a class="main-nav-link nav-link" href="#">Contact Us </a>
+            <a class="main-nav-link nav-link" href="#contact">Contact Us </a>
             <span
               ><ion-icon
                 class="icon-contact"
@@ -184,7 +190,7 @@
           </aside>
         </div>
       </section>
-      <section class="section-about">
+      <section class="section-about" id="about">
         <div class="about container grid grid--2-cols">
           <div class="about-text-box">
             <div class="about-text">
@@ -257,7 +263,7 @@
           </div>
         </div>
       </section>
-      <section class="section-services">
+      <section class="section-services" id="services">
         <div class="services container">
           <div class="about-text">
             <div class="about-title">
@@ -322,7 +328,7 @@
           </div>
         </div>
       </section>
-      <section class="section-works">
+      <section class="section-works" id="work">
         <div class="works container grid grid-works">
           <div class="crafts">
             <div class="works-text">
@@ -395,12 +401,14 @@
           </div>
         </div>
       </section>
-      <footer class="footer">
+      <footer class="footer" id="contact">
         <div class="footer-text-box container grid-footer grid-footer-cols">
           <div class="footer-kick">
             <div class="kick-text-box">
               <h2 class="footer-heading">Kick-start your dream home with us</h2>
-              <p class="kick-text">Send us a hi</p>
+              <p class="kick-text">
+                <a href="#" class="send-us"> Send us a hi</a>
+              </p>
             </div>
           </div>
           <div class="address-col">
